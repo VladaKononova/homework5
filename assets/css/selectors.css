@@ -1,0 +1,75 @@
+h1 {
+    color: green;
+}
+
+div span:first-child {
+    color: red;
+}
+
+div span:nth-last-child(3) {
+    background-color: yellow;
+}
+
+.special {
+    color: orange;
+}
+
+div span:last-child {
+    color: green;
+}
+
+a + a {
+    color: green;
+}
+
+a[title] {
+    color: red;
+}
+
+b {
+    color: purple;
+}
+
+p span:first-of-type {
+    color: skyblue;
+}
+
+p span:nth-last-child(2) {
+    color: green;
+}
+
+p span:last-child {
+    color: black;
+}
+
+ul li:nth-of-type(odd) {
+    color: red;
+}
+
+ul li:nth-of-type(even) {
+    background-color: yellow;
+}
+
+ul li:last-child {
+    color: purple;
+}
+
+p + div + div {
+    color: pink;
+}
+
+ol li:nth-of-type(odd) {
+    color: blue;
+}
+
+ol li:nth-of-type(even) {
+    color: green;
+}
+
+ol li:nth-child(4) {
+    background-color: lightgray;
+}
+
+ol li:last-child {
+    color: orange;
+}
